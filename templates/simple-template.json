@@ -1,0 +1,22 @@
+{
+    "roles": [
+        { "name": "Admin", "color": "#FF0000", "permissions": ["ADMINISTRATOR"] },
+        { "name": "Mod", "color": "#0000FF", "permissions": ["KICK_MEMBERS", "BAN_MEMBERS"] },
+        { "name": "Member", "color": "#008000", "permissions": ["SEND_MESSAGES"] }
+    ],
+    "channels": [
+        {
+            "name": "Genel",
+            "channels": [
+                { "name": "sohbet", "type": "GUILD_TEXT" },
+                { "name": "duyurular", "type": "GUILD_TEXT" }
+            ]
+        },
+        {
+            "name": "Ses Kanalları",
+            "channels": [
+                { "name": "Genel", "type": "GUILD_VOICE" }
+            ]
+        }
+    ]
+}
